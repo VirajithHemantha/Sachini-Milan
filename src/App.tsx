@@ -679,15 +679,34 @@ export default function App() {
                       <div className="h-px w-10 bg-theme-200" />
                     </div>
  
-                    {/* Column 2: Holy Mass */}
+                    {/* Column 2: Poruwa Ceremony */}
                     <div className="flex flex-col items-center flex-1">
                       <Clock className="w-6 h-6 md:w-8 md:h-8 text-theme-500 mb-4 opacity-80" />
                       <p className="text-[9px] md:text-[10px] uppercase tracking-[0.3em] md:tracking-[0.4em] text-stone-400 font-bold mb-3">Poruwa Ceremony</p>
                       <p className="font-cinzel text-xl md:text-3xl text-theme-900 tracking-widest font-bold whitespace-nowrap">08:00 AM</p>
                       <p className="font-cinzel text-xs md:text-sm text-theme-600 tracking-[0.2em] mt-3 uppercase">The Epitome</p>
                     </div>
+  
+                    {/* Divider */}
+                    <div className="hidden lg:flex flex-col items-center gap-3">
+                      <div className="w-px h-12 bg-theme-200" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-theme-400" />
+                      <div className="w-px h-12 bg-theme-200" />
+                    </div>
  
+                    <div className="lg:hidden flex flex-row items-center gap-3">
+                      <div className="h-px w-10 bg-theme-200" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-theme-400" />
+                      <div className="h-px w-10 bg-theme-200" />
+                    </div>
 
+                    {/* Column 3: Closing Time */}
+                    <div className="flex flex-col items-center flex-1">
+                      <Clock className="w-6 h-6 md:w-8 md:h-8 text-theme-500 mb-4 opacity-80" />
+                      <p className="text-[9px] md:text-[10px] uppercase tracking-[0.3em] md:tracking-[0.4em] text-stone-400 font-bold mb-3">Closing Time</p>
+                      <p className="font-cinzel text-xl md:text-3xl text-theme-900 tracking-widest font-bold whitespace-nowrap">03:00 PM</p>
+                      <p className="font-cinzel text-xs md:text-sm text-theme-600 tracking-[0.2em] mt-3 uppercase">The Epitome</p>
+                    </div>
                   </div>
  
 
