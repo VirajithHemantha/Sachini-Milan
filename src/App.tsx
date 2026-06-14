@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Sparkles, MapPin, Calendar, Clock } from "lucide-react";
+import { Sparkles, MapPin, Calendar, Clock, ChevronDown } from "lucide-react";
 
 /**
  * Premium White & Silver Wedding Invitation Theme
@@ -532,6 +532,15 @@ export default function App() {
                       <p className="text-sm md:text-base text-white tracking-[0.2em] md:tracking-[0.3em] font-bold">2026.07.15</p>
                       <p className="text-[8px] md:text-[9px] text-theme-200 tracking-[0.2em] uppercase font-bold">The Epitome, Kurunegala</p>
                     </div>
+
+                    {/* Animated Scroll Indicator */}
+                    <motion.div
+                      animate={{ y: [0, 8, 0] }}
+                      transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                      className="mt-8 md:mt-12 opacity-80"
+                    >
+                      <ChevronDown className="w-6 h-6 md:w-8 md:h-8 text-white drop-shadow-md" />
+                    </motion.div>
                   </motion.div>
                 </div>
               </motion.div>
@@ -767,7 +776,7 @@ export default function App() {
                             Kurunegala.
                           </p>
                           <p className="text-stone-500 text-xs md:text-sm font-light">
-                            Poruwa Ceremony begins at 8:00 AM. We look forward to celebrating with you!
+                            Poruwa Ceremony begins at 8:00 AM. The celebration will conclude at 3:00 PM. We look forward to celebrating with you!
                           </p>
                         </div>
                       </div>
