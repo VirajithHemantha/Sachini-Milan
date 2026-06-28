@@ -803,7 +803,7 @@ export default function App() {
  
                     <div className="w-full space-y-6">
                       <img 
-                        src="https://scontent.fcmb10-1.fna.fbcdn.net/v/t39.30808-6/496858110_1240769881385754_2282982151626403967_n.jpg?stp=dst-jpg_tt6&cstp=mx960x640&ctp=s960x640&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFYnu2IU35PbVvs3aBcTDXWd--5qjRkTJx377mqNGRMnKHKVDeI6oqOoVXpI7Uz3J4tuZp1IN_zS3-4l-xAvX3z&_nc_ohc=DD9odx7ybNQQ7kNvwHD2oJ8&_nc_oc=AdrABDtyK4cLaQHIhlR9zE-zWJUP9t1ZWxBQ9pcKceJ_PIFxT7y9xQcE_laVxfLrlRA&_nc_zt=23&_nc_ht=scontent.fcmb10-1.fna&_nc_gid=uzgqrP7uNJAvNRgsEt8Bcg&_nc_ss=7b2a8&oh=00_Af8gLXtZLcmeXl-7BbMyOECYTKXoQxZjEaAc8DMMYPyIjA&oe=6A2F909A"
+                        src="https://cf.bstatic.com/xdata/images/hotel/max500/479073392.jpg?k=0f268309279e9891f97c63561f9a78a566867cb6b6daa795053b29b6cdb3bd8c&o=&hp=1"
                         alt="The Epitome"
                         className="w-full h-48 md:h-72 object-cover rounded-2xl shadow-lg border-[6px] border-white"
                       />
